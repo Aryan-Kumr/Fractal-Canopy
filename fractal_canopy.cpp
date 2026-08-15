@@ -11,7 +11,7 @@
 
 void DrawCanopy(float x, float y, float length, float angle, float thickness) {
 	
-	// Base case (When length reaches 0)
+	// Base case (When length is less than 1)
 	if(length <= 1) {
 		return;
 	}
